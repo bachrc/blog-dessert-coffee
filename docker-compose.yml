@@ -7,3 +7,10 @@ services:
       - ".:/src"
     ports:
       - "1313:1313"
+    networks:
+      proxied_apps:
+        - ipv4_address: 172.19.0.4
+
+networks:
+  proxied_apps:
+    external: true
