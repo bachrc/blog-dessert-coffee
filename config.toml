@@ -1,0 +1,142 @@
+languageCode = "fr-fr"
+title = "partage de connaissances de bachrc"
+theme = "PaperMod"
+paginate = 5
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "blog.dessert.coffee"
+description = "ici on apprend des trucs"
+keywords = [ "bachrc", "craft", "blog", "tdd" ]
+author = "bachrc"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "2 January 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+[params.profileMode]
+enabled = true
+title = "bachrc"
+subtitle = "c'est moi"
+imageUrl = "moibg.jpg"
+imageTitle = "Yohann Bacha"
+
+[[params.profileMode.buttons]]
+name = "Articles"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+[params.assets]
+favicon = "favicon.ico"
+favicon32x32 = "favicon.ico"
+apple_touch_icon = "cup.png"
+safari_pinned_tab = "cup.png"
+
+[params.label]
+url = "aaaaaaa"
+text = "dessert.coffee"
+icon = "/cup.svg"
+iconHeight = 35
+
+[params.homeInfoParams]
+Title = "centre de formation bachrc"
+Content = """
+Bienvenue dans ce centre de formation.
+- Des fois je fais des recherches, je les sérialise ici.
+- Principalement du dev, mais pas forcément que ça. Abonne-toi au flux RSS. Mets la cloche.
+"""
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/_bachrc"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/bachrc"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/yohannbacha"
+
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/4618966/bachrc"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:bachrc@dessert.coffee"
+
+[[params.socialIcons]]
+name = "RsS"
+url = "index.xml"
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+URL = "https://github.com/bachrc/blog-dessert-coffee/content"
+Text = "Suggérer un changement"
+appendFilePath = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "posts"
+name = "blog"
+url = "/posts"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "à propos"
+url = "/about"
+weight = 40
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
