@@ -1,8 +1,7 @@
 ---
 title: "Début de ce blog"
 date: 2021-05-20T19:02:34+02:00
-draft: true
-tags: ["casual"]
+categories: ["discussion"]
 ---
 
 Je n'ai aucune idée de quoi dire, mais bienvenue. 
