@@ -1,3 +1,4 @@
+baseURL = "/"
 languageCode = "fr-fr"
 title = "partage de connaissances de bachrc"
 theme = "PaperMod"
