@@ -1,4 +1,4 @@
-baseURL: https://blog.dessert.coffee/
+#baseURL: https://blog.dessert.coffee/
 languageCode: fr-fr
 title: partage de connaissances de bachrc
 theme: "PaperMod"
