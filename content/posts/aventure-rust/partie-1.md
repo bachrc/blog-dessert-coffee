@@ -361,7 +361,7 @@ impl Welcomer {
 
 Relançons nos tests. Est-ce que ça s'est bien passé ?
 
-![Tests au vert](./partie-1/illu-1.png)
+![Tests au vert](illu-1.png)
 
 Tout ça m'a l'air d'être parfait !
 
